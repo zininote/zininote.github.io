@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+---
+layout: post
+title: "About..."
+updated: 2021-01-15
+---
 
-You can use the [editor on GitHub](https://github.com/zininote/zininote.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## 찌니는...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+40대 아재, 문과 출신, 모 기업 기획팀 근무, 배불뚝이, 많이 게으름, 잘 안움직임
 
-### Markdown
+## 찌니노트 블로그는...
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2014년부터 블로그에 흥미를 가져 이것저것 포스팅도 해보고는 했었다. 티스토리부터 시작했는데, 역마살이 꼈는지, 네이버, 블로그스팟, 워드프레스 등등을 전전하다가 [깃허브](https://github.com)를 알게 되고는, 깃허브 페이지를 이용하여 블로그를 만들게 되었다.
 
-```markdown
-Syntax highlighted code block
+이런저런 관심사항들을 스터디하면서, 나중에 재활용을 하게될지 모를 이런저런 자료나 정보들을 모아놓는 블로그가 될 것 같다. 나중에 기억이 가물가물하거나 할 때, 다시 찾아볼 수 있도록 끄적거리는 노트와 같다는 생각으로, 본인의 별칭과 "노트"라는 이름을 가져다 붙여, [찌니노트](https://zininote.github.io) 라는 이름을 붙이게 되었다.
 
-# Header 1
-## Header 2
-### Header 3
+사실 개인적인 활용 목적이 우선인 블로그이지만, 소통을 위해 댓글창도 달았고, 광고도 붙여보았다. 아무쪼록 잘 부탁드리는 바이다.
 
-- Bulleted
-- List
+## 이제 시작합니다
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zininote/zininote.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2020년 7월부터 깃허브 페이지 베타테스트를 어느정도 해봤다. 이제 다른 블로그에 포스팅했던 글부터 옮겨오는 것부터 시작해보려 한다. Hello Blog 🙋‍♂️🙋‍♀️

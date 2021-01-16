@@ -20,7 +20,7 @@ INDEX-MATCH 함수 조합을 사용하면 위 단점들 없이, VLOOKUP 함수�
 ## 기본 사용법
 
 ```excel
-= VLOOUP(검색값, 검색범위, 열번호, FALSE)
+= VLOOKUP(검색값, 검색범위, 열번호, FALSE)
 = INDEX(검색대상열, MATCH(검색값, 검색기준열, 0))
 ```
 {:.excel}

@@ -32,4 +32,4 @@ VLOOKUP 함수 내부를보면 CHOOSE 함수가 사용되어 있음을 볼 수 �
 
 INDEX-MATCH 함수 조합으로 VLOOKUP 함수를 대신할 수 있다. 이 포스팅에서 소개한 보다 왼쪽에 있는 내용 검색도 가능하다. 관심있는 분들은 아래 포스팅을 참고해보기 바란다.
 
-- [INDEX, MATCH: VLOOKUP 의 대안, INDEX-MATCH 함수](post/index-match-vlookup-alternative)
+- [INDEX, MATCH: VLOOKUP 의 대안, INDEX-MATCH 함수](/post/index-match-vlookup-alternative)

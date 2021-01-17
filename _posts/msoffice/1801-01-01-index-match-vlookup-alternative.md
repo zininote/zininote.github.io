@@ -78,5 +78,5 @@ VLOOKUP 함수는 대/소문자 구별을 하지 않는다. 대/소문자 구별
 
 VLOOKUP 함수의 단점을 없애는 대체수단으로, INDEX-MATCH 함수 조합을 소개하였으나, 일부는 VLOOKUP 함수의 개선으로도 해결할 수 있다. 아래 포스팅에 소개하였으니 참고하기 바란다.
 
-- [TBD] VLOOKUP 오른쪽열 기준으로 보다 왼쪽열 내용 검색
+- [VLOOKUP: 오른쪽열 기준으로 보다 왼쪽열 내용 검색](post/vlookup-search-left-from-right-column)
 - [TBD] 두가지 이상 검색기준으로 VLOOKUP 검색

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CELL: Sheet 이름을 불러오는 함수식"
-updataed: 2021-01-20
+updated: 2021-01-20
 tags: [msoffice,excel]
 ---
 

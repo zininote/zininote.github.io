@@ -19,7 +19,7 @@ n 이라는 숫자에 관계없이, 처음부터 소수를 구해주는 방법�
 def gen_prime_number():
     sieve = {}
     n = 2
-    while 1:
+    while True:
         if n in sieve:
             for x in sieve[n]:
                 sieve.setdefault(n+x, []).append(x)

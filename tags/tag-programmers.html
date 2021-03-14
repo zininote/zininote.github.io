@@ -1,15 +1,15 @@
 ---
 layout: default
-permalink: /tag/algorithm
-title: algorithm
+permalink: /tag/programmers
+title: programmers
 ---
 
 <div id="tag-title">
   <h1>{{ page.title }} 태그 포스팅들</h1>
 </div>
 <div id="tag-content">
-    {% assign subs = "math" | split: "," %}
-    {% assign subs_desc = "Mathematics:" | split: "," %}
+    {% assign subs = "lv1" | split: "," %}
+    {% assign subs_desc = "Level 1:" | split: "," %}
     {% assign to = subs.size | minus: 1 %}
     
     {% for i in (0..to) %}

@@ -41,4 +41,4 @@ def solution(dartResult):
 
 ## 참고
 
-정규식 룰은 [Python 공식문서](https://docs.python.org/3/howto/regex.html)를 참고하였고, 테스트를 위해 [regex101](https://regex101.com/) 사이트를 사용했다.
+정규식 룰은 [Python 공식문서](https://docs.python.org/ko/3/howto/regex.html)를 참고하였고, 테스트를 위해 [regex101](https://regex101.com/) 사이트를 사용했다.

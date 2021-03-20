@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "예산"
-updated: 2021-03-15
+updated: 2021-03-20
 tags: [programmers,lv1]
 ---
 
@@ -48,3 +48,16 @@ def solution(d, budget):
 리스트 comprehension 은 어떤 반복가능한 개체를 처음부터 끝까지 순회를 한다. 중간에 break 를 걸 수 없는 구조인데, 조건을 만족시키지 못하면 억지로 순회하는 대상을 `it.clear()` 로 없앰으로써, 강제 순회 종료가 되도록 하였다.
 
 문제는 통과할 수 있지만 바람직한 코딩 스타일은 아닌 것 같다. itertools 모듈의 takewhile 을 쓰는 것이 제대로 된 방법이 아닐까 싶다.
+
+## 참고2
+
+아래는 아예 한줄로 표현해봤다.
+
+```py
+def solution(d, budget): return [x for x in setattr(solution, 'it', sorted(d)) or solution.it if (budget := budget-x) >= 0 or solution.it.clear()].__len__()
+```
+{:.python}
+
+solution 함수의 속성으로 `it` 을 만들어, `d` 를 오름차순 한 리스트를 할당하였다. setattr 자체가 `it` 을 반환하지 않기에 or 연산자로 다시 묶었다.
+
+참고로, 리스트 외 딕셔너리나 set 자료형 등은 clear 함수가 없어 comprehension 순회 중간에 break 를 걸기가 어렵다. 리스트로 바꿔서 순회해야 할 것 같다. 그리고 제너레이터라면 close 함수를 사용하면 된다.

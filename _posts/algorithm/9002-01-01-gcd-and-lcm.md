@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GCD(최대공약수)와 LCM(최소공배수)를 구하는 함수"
-updated: 2020-02-23
+updated: 2021-02-23
 tags: [algorithm,math]
 ---
 

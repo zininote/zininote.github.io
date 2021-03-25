@@ -2,7 +2,7 @@
 layout: post
 title: "시저 암호"
 updated: 2021-03-25
-tags: [programmers.lv1]
+tags: [programmers,lv1]
 ---
 
 ## 문제

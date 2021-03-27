@@ -62,7 +62,7 @@ Python 의 % 연산에 따라, 위 rotate 함수 내부에서 계산되는 `-2%8
 
 이 알고리즘은 [geeksforgeeks](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/) 사이트 내용을 참고하였다. `rotate(arr, 2)` 를 수행한다고 하면 아래처럼 도식화할 수 있다.
 
-![그림01](/img/algorithm/algorithm-1010-01-01-01.svg)
+![그림01](/img/algorithm/algorithm-1001-01-01-01.svg)
 
 먼저, 오른쪽으로 로테이션이 되는 부분(하얀부분)과, Array 범위를 벗어나서 다시 왼쪽으로 붙게되는 부분(붉은부분)을 구분한다.
 
@@ -76,7 +76,6 @@ Python 코드로 구현하면 아래와 같다.
 def rotate(arr, n):
     n = n%len(arr)
     return (arr[:-n][::-1]+arr[-n:][::-1])[::-1]
-
 
 arr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 

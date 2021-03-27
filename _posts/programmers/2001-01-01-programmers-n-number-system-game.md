@@ -2,7 +2,7 @@
 layout: post
 title: "n진수 게임"
 updated: 2021-03-27
-tags: [programmers.lv2]
+tags: [programmers,lv2]
 ---
 
 ## 문제

@@ -65,7 +65,7 @@ bfs 함수의 인수로 시작노드 와 그래프를 지정한다. 함수 내�
 
 출력결과를 보면 이 코드가 왜 너비우선탐색인지 알 수 있다. 그리고 이는 Queue 라는 자료구조의 특색때문이기도 하다.
 
-## DFS_iterative
+## DFS_iterative 코드
 
 DFS 방식은 크게 두가지가 있다. 하나는 반복문을 사용한 iterative 방식이고, 다른 하나는 재귀호출을 사용한 recursive 방식이다. iterative 방식을 먼저 소개한다.
 
@@ -94,7 +94,7 @@ dfs_iterative(0, g)   # 0 7 8 3 6 4 5 1 2
 
 다만, 익히 DFS 를 아는 분들은 탐색 순서가 좀 다르다고 느낄 수 있는데, 이 땐 `for x in g[n]:` 구문을 `for x in g[n][::-1]:` 로 바꿔서 역순으로 순회를 하도록 해보자. 그럼 출력이 0 1 2 3 4 5 6 7 8 로 나오게 된다. 어쨌든 둘 다 깊이우선탐색임에 틀림없다.
 
-## DFS_recursive
+## DFS_recursive 코드
 
 ```python
 def dfs_recursive(n, g, *, visited=set()):

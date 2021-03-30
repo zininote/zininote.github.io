@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BFS (너비우선검색) 과 DFS (깊이우선검색) 구현 코드"
+title: "BFS (너비우선탐색) 과 DFS (깊이우선탐색) 구현 코드"
 updated: 2021-03-30
 tags: [algorithm,graph]
 ---

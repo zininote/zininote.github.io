@@ -45,7 +45,7 @@ def solution(d, budget):
 ```
 {:.python}
 
-리스트 comprehension 은 어떤 반복가능한 개체를 처음부터 끝까지 순회를 한다. 중간에 break 를 걸 수 없는 구조인데, 조건을 만족시키지 못하면 억지로 순회하는 대상을 `it.clear()` 로 없앰으로써, 강제 순회 종료가 되도록 하였다.
+리스트 comprehension 은 어떤 반복가능한 개체를 처음부터 끝까지 순회를 한다. 중간에 break 를 걸 수 없는 구조인데, 조건을 만족시키지 못하면 억지로 순회하는 대상을 `it.clear()` 로 없앰으로써, 강제 순회 종료가 되도록 하였다. comprehension 표현식 순회 도중 break 에 대해서는 [별도 포스팅](/post/break-list-comprehension)에도 소개했으니 참고해보기 바라다.
 
 문제는 통과할 수 있지만 바람직한 코딩 스타일은 아닌 것 같다. itertools 모듈의 takewhile 을 쓰는 것이 제대로 된 방법이 아닐까 싶다.
 

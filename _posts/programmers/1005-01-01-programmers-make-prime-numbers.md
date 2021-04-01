@@ -40,10 +40,10 @@ def solution(nums):
 ```
 {:.python}
 
-`#1` 은 소수를 2 부터 순서대로 만들어내는 제너레이트다. [별도 포스팅](https://zininote.github.io/post/permutations-and-combinations)에 소개하였으니 참고해보기 바란다.
+`#1` 은 소수를 2 부터 순서대로 만들어내는 제너레이트다. [별도 포스팅](/post/permutations-and-combinations)에 소개하였으니 참고해보기 바란다.
 
 `#2` 에서는 `#1` 의 제너레이터를 사용하여 3000 이하의 수 중 소수만 `primes` 리스트에 넣는다. 문제에서 각 수는 1000 이하이고, 3 개의 수를 뽑아낸다고 했으므로 3000 이하의 수 중에서 소수만 찾으면 된다.
 
-또한 제너레이터는 무한히 반복하도록 되어있으나 3000 을 넘긴 시점부터는 close 함수로 제너레이터 동작을 끊도록 하였다.
+또한 제너레이터는 무한히 반복하도록 되어있으나 3000 을 넘긴 시점부터는 close 함수로 제너레이터 동작을 끊도록 하였다. 이에 대해서는 [별도 포스팅](/post/break-list-comprehension)을 참고해보자.
 
-`#3` 에서는 itertools 모듈의 combinations 함수를 사용하여 `nums` 로부터 3 개의 숫자를 뽑아내는 모든 case 를 순회하도록 했다. 조합에 대해서도 [별도 포스팅](https://zininote.github.io/post/permutations-and-combinations)에 소개했으니 참고해보기 바란다.
+`#3` 에서는 itertools 모듈의 combinations 함수를 사용하여 `nums` 로부터 3 개의 숫자를 뽑아내는 모든 case 를 순회하도록 했다. 조합에 대해서도 [별도 포스팅](/post/permutations-and-combinations)에 소개했으니 참고해보기 바란다.

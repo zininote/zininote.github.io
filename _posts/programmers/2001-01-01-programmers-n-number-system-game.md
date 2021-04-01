@@ -33,6 +33,6 @@ def solution(n, t, m, p):
 ```
 {:.python}
 
-`#1` 은 제너레이터 구현 부분이다. `n` 진수 변환을 위해 numpy 모듈의 base.repr 함수를 사용하였다. 진법 변환에 대해서는 [별도 포스팅](https://zininote.github.io/post/convert-number-system-function)에 따로 정리해뒀다. 진법 변환된 숫자를 `a` 에 계속 이어붙이는데, 길이가 `m` 을 넘지 않는다면 계속 이어붙이고, 넘는다면 그만큼 잘라서 yield 한다.
+`#1` 은 제너레이터 구현 부분이다. `n` 진수 변환을 위해 numpy 모듈의 base.repr 함수를 사용하였다. 진법 변환에 대해서는 [별도 포스팅](/post/convert-number-system-function)에 따로 정리해뒀다. 진법 변환된 숫자를 `a` 에 계속 이어붙이는데, 길이가 `m` 을 넘지 않는다면 계속 이어붙이고, 넘는다면 그만큼 잘라서 yield 한다.
 
 `#2` 에서는 제너레이터 결과를 `t` 개 까지만 순회하고, `p-1` 위치에 해당하는 숫자만 따로 모아 최종리턴한다.

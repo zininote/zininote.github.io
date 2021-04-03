@@ -36,8 +36,9 @@ g = {
 ## BFS 코드
 
 ```python
-def bfs(n, g, *, checked=set(), queue=[]):
+def bfs(n, g):
     #1 시작노드를 탐색대상으로 체크하고 Queue 에 삽입
+    checked, queue = set(), []
     checked.add(n)
     queue.append(n)
 
@@ -71,8 +72,9 @@ bfs 함수의 인수로 시작노드 와 그래프를 지정한다. 함수 내�
 DFS 방식은 크게 두가지가 있다. 하나는 반복문을 사용한 iterative 방식이고, 다른 하나는 재귀호출을 사용한 recursive 방식이다. iterative 방식을 먼저 소개한다.
 
 ```python
-def dfs_iterative(n, g, *, checked=set(), stack=[]):
+def dfs_iterative(n, g):
     #1 시작노드를 탐색대상으로 체크하고 Stack 에 삽입
+    checked, stack = set(), []
     checked.add(n)
     stack.append(n)
 
@@ -98,7 +100,7 @@ dfs_iterative(0, g)   # 0 7 8 3 6 4 5 1 2
 ## DFS_recursive 코드
 
 ```python
-def dfs_recursive(n, g, *, checked=set()):
+def dfs_recursive(n, g):
     def fn(n, checked):
         #2 현재노드 작업진행
         print(n, end=' ')
@@ -110,6 +112,7 @@ def dfs_recursive(n, g, *, checked=set()):
                 fn(x, checked)
 
     #1 시작노드를 탐색대상으로 체크하고 재귀함수 실행
+    checked = set()
     checked.add(n)
     fn(n, checked)
 

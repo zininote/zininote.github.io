@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "후보키"
-update: 2021-04-04
+updated: 2021-04-04
 tags: [programmers,lv2]
 ---
 

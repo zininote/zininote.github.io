@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "후보키"
-updated: 2021-04-04
+updated: 2021-04-06
 tags: [programmers,lv2]
 ---
 
@@ -55,3 +55,29 @@ def is_unique(r, c):
 참고로 조합이 원소 개수가 작은 것부터 순회를 해야 이 함수가 제대로 작동한다. 예를들어 (3, 4) 가 `keys` 에 등록되어 있었고, 원소 개수가 더 적은 (3,) 이 유일성, 최소성을 만족한다면 (3, 4) 를 버리고 (3,) 을 취해야 하나, (3, 4), (3,) 둘 모두 `keys` 안에 포함되게 된다.
 
 `#5` 는 유일성을 만족시키는지 여부를 판별하는 함수다. 이것도 집합(set) 자료형의 중복요소 금지 특성을 사용했다. 고유한 요소만 있다면 set 자료형으로 바꿔도 요소 개수는 바뀌지 말아야 한다. 고유한 요소에 대해서는 [별도 포스팅](/post/leave-unique-elements-preserving-order) 내용도 참고해보기 바란다.
+
+## 참고
+
+Python 에는 데이터를 다루기 위한 [Pandas](https://pandas.pydata.org/) 모듈도 유명하다. 프로그래머스에서 이를 사용할 수 있길래, Pandas 로도 풀어보았다.
+
+```py
+import pandas as pd
+from itertools import combinations
+
+def solution(relation):
+    #1
+    r = pd.DataFrame(relation)
+    keys = []
+    
+    #2
+    for c in (c for x in range(1, len(r.columns)+1) for c in combinations(r.columns, x)):
+        if True if not keys else all(not(set(x) <= set(c)) for x in keys):
+            if r.loc[:, c].sum(axis=1).squeeze().is_unique:
+                keys += [c]
+            
+    #3
+    return len(keys)
+```
+{:.python}
+
+외부 함수로 구현했던 부분을 모두 `#2` 안에 넣었다.

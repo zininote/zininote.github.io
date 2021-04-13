@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "이진 탐색(Binary Search)으로 요소 찾기"
-updated: 2021-04-12
+updated: 2021-04-13
 tags: [algorithm,list]
 ---
 

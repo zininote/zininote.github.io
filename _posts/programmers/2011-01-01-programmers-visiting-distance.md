@@ -40,6 +40,6 @@ def solution(dirs):
 
 `#1` 에서 여러 변수를 초기화 했다. `border` 는 좌표의 경계를, `path` 는 지나온 길들을, `x` 와 `y` 는 초기 좌표를 의미한다. 특히 최종결과물이 되는 `path` 는 `{{(이동전좌표), (이동후좌표)}, ... }` 형태로 set 안에 set 을 넣는 구조가 된다.
 
-참고로, 본래 set 에는 immutable 값만 삽입 가능하므로, set 안에 set 을 넣을 순 없다. 그래서 immutable 한 set 인 frozenset 을 사용하였다.
+참고로, 본래 set 에는 immutable 값만 삽입 가능하므로, set 안에 set 을 넣을 순 없다. 그래서 immutable set 인 frozenset 을 사용하였다.
 
 `#2` 에서는 본격적으로 좌표를 따라 이동시킨다. `#2-1` 부분은 입력값에 따라 좌표를 변동시키고, `#2-2` 부분은 이동의 결과 실제 좌표가 변했다면 이동을 했다는 의미이므로, 그 길을 `path` 에 frozenset 형태로 삽입한다.

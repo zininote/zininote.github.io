@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "점화식과 재귀함수와 메모이제이션(동적계획법)"
-updated: 2020-12-01
+updated: 2021-04-17
 tags: [algorithm,design]
 ---
 

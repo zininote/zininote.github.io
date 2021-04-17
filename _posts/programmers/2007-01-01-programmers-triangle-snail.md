@@ -36,6 +36,7 @@ def solution(n):
     #3
     return b[b != 0].tolist()
 ```
+{:.python}
 
 `#1` 에서는 `b` 이자원리스트와, 좌표가 움직일 방향을 `direction` 딕셔너리로 생성했다. 현재의 방향을 딕셔너리에 key 로 대입하면 다음에 전환할 방향을 value 로 알려주는 식이다.
 

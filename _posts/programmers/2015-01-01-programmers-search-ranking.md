@@ -11,7 +11,7 @@ tags: [programmers,lv2]
 
 처음에는 Pandas 모듈을 사용하여 쉽게 해결하려 하였으나, 효율성 테스트에서 계속 실패하였다. 관건은 쿼리문을 효율적으로 탐색하는 방법인데, 이진 탐색을 사용하여 해결하였다.
 
-이진 탐색에 대해서는 [별도 포스팅](https://zininote.github.io/post/binary-search)에 소개하였다. 여기에서 언급한 [bisect_left](https://docs.python.org/ko/3/library/bisect.html#bisect.bisect_left) 함수를 사용하였다.
+이진 탐색에 대해서는 [별도 포스팅](/post/binary-search)에 소개하였다. 여기에서 언급한 [bisect_left](https://docs.python.org/ko/3/library/bisect.html#bisect.bisect_left) 함수를 사용하였다.
 
 ## 풀이
 

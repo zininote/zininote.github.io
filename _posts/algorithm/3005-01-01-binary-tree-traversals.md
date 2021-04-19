@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "이진 트리 순회하는 3 가지 방법"
-updated: 2021-09-17
+updated: 2021-04-19
 cat: algorithm
 ---
 

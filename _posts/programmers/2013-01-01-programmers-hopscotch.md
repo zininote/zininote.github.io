@@ -9,7 +9,7 @@ tags: [programmers,lv2]
 
 [https://programmers.co.kr/learn/courses/30/lessons/12913?language=python3](https://programmers.co.kr/learn/courses/30/lessons/12913?language=python3)
 
-초기값과 일반항으로 이뤄진 점화식을 세우고, 메모이제이션을 활용한 재귀호출 (동적계획법)으로 풀었다. 메모이제이션 사용한 점화식 풀이 대해서는 [별도 포스팅](post/recurrence-recursive-and-memoization)에 소개하였으니 참고해보기 바란다.
+초기값과 일반항으로 이뤄진 점화식을 세우고, 메모이제이션을 활용한 재귀호출 (동적계획법)으로 풀었다. 메모이제이션 사용한 점화식 풀이 대해서는 [별도 포스팅](/post/recurrence-recursive-and-memoization)에 소개하였으니 참고해보기 바란다.
 
 재귀함수명을 hopscotch 라 해보자. 점화식은 아래와 같다.
 

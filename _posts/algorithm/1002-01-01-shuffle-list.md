@@ -7,7 +7,7 @@ tags: [algorithm,list]
 
 ## 데이터요소 셔플
 
-셔플(Shuffle) 은 어떤 배열이나 리스트의 데이터요소를 무작위로 뒤섞어 재배치하는 것을 의미한다. 이를 구현한 가장 유명한 알고리즘은 [Fisher–Yates 알고리즘](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Fisher_and_Yates'_original_method)으로, 아래에 링크 안에 있는 의사코드를 도식화하여 표현해보았다. 어떤 식으로 셔플을 구현하는지 이해가 될 것이다.
+셔플(Shuffle) 은 어떤 배열이나 리스트의 데이터요소를 무작위로 뒤섞어 재배치하는 것을 의미한다. 이를 구현한 가장 유명한 알고리즘은 [Fisher–Yates 알고리즘](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Fisher_and_Yates'_original_method)으로, 아래 그림을 보면 어떤 식으로 셔플을 구현하는지 이해가 될 것이다.
 
 ![그림00](/img/algorithm/algorithm-1002-01-01-00.svg)
 

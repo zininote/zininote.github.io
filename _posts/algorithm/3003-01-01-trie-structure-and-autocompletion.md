@@ -13,7 +13,7 @@ tags: [algorithm,graph]
 
 만일 `['baby', 'back', 'bad', 'bank', 'box', 'boxer', 'dad', 'daddy', 'dance']` 과 같은 단어들이 Trie 자료구조에 등록되어있다고 한다면, 아래와 같은 그래프 구조를 가진다.
 
-![그림00](/img/algorithm-3003-01-01-00.svg)
+![그림00](/img/algorithm/algorithm-3003-01-01-00.svg)
 
 보면 알겠지만 root 로부터 단어들이 글자마다 순서대로 저장되어있다. 어떤 단어의 끝에 다다르면 end 속성을 활성화한다.
 

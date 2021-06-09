@@ -69,6 +69,10 @@ img {vertical-align: bottom;}
 #content em {font-style: normal; font-weight: 700;}
 #content .warn {color: #b52b27; background-color: #fdf7f7; margin: 24px 0; font-size: 16px; padding: 12px;}
 
+#content s,
+#content del,
+#content strike {font-color: #999; text-decoration: line-though;}
+
 #main, #footer, #header {width: 100%; height: auto; clear: both;}
 #header > div {max-width: 1024px; width: 100%; margin: 0 auto; padding: 10px 0;}
 #header-title > img {width: auto; height: 24px;}

@@ -11,7 +11,7 @@ tags: [algorithm,list]
 
 예를들어 아래 그림을 보면, 왼쪽은 `rotate(arr, -2)`, 오른쪽은 `rotate(arr, 2)` 와 같은 명령을 수행한 결과이다.
 
-![그림00](/img/algorithm/algorithm-1001-01-01-00.svg)
+![그림00](/img/algorithm/algorithm-0000.svg)
 
 왼쪽 그림은 왼쪽 방향으로 2 칸 이동을, 오른쪽 그림은 오른쪽 방향으로 2 칸 이동을 했다. 방향대로 이동할 수 있는 부분(하얀 부분)과, 배열 범위를 벗어나서 반대쪽 앞으로 채워지는 부분(붉은 부분)이 구분되어있다.
 
@@ -62,7 +62,7 @@ Python 의 % 연산에 따라, 위 rotate 함수 내부에서 계산되는 `-2%8
 
 이 알고리즘은 [geeksforgeeks](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/) 사이트 내용을 참고하였다. `rotate(arr, 2)` 를 수행한다고 하면 아래처럼 도식화할 수 있다.
 
-![그림01](/img/algorithm/algorithm-1001-01-01-01.svg)
+![그림01](/img/algorithm/algorithm-0001.svg)
 
 먼저, 오른쪽으로 로테이션이 되는 부분(하얀부분)과, Array 범위를 벗어나서 다시 왼쪽으로 붙게되는 부분(붉은부분)을 구분한다.
 

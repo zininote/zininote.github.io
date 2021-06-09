@@ -51,28 +51,28 @@ print(nestedloop(seq, n))
 
 먼저 아래와 같이 초기화한다. `s` 는 부분합의 시작점을, `e` 는 부분합의 끝점을 나타내는데, Python 의 range 함수 범위 규칙과 같이 ~이상, ~미만 으로 정의했다. 그리고 이 초기상태의 부분합은 2 이다.
 
-![그림00](/img/algorithm/algorithm-1020-01-01-00.svg)
+![그림00](/img/algorithm/algorithm-0003.svg)
 
 이제 부분합 < 30 일 때는 `e` 를 오른쪽으로 이동(부분합 증가)하고, 부분합 >= 30 일 때는 `s` 를 오른쪽으로 이동(부분합 감소)하고자 한다. 초기상태는 부분합 < 30 이므로, `e` 를 늘려간다. `e` 가 5 인덱스를 가리킬 때, 아래처럼 부분합이 30 이 된다.
 
-![그림00](/img/algorithm/algorithm-1020-01-01-01.svg)
+![그림00](/img/algorithm/algorithm-0004.svg)
 
 부분합이 30 이 되는 케이스를 하나 찾았다. 이제 부분합 >= 30 이므로 `s` 를 늘린다.
 
-![그림00](/img/algorithm/algorithm-1020-01-01-02.svg)
+![그림00](/img/algorithm/algorithm-0005.svg)
 
 부분합 < 30 이므로 `e` 를 늘린다. 그리고 이 과정을 반복하면 아래와 같이 다시 부분합이 30 이 되는 케이스를 찾을 수 있다.
 
-![그림00](/img/algorithm/algorithm-1020-01-01-04.svg)
+![그림00](/img/algorithm/algorithm-0006.svg)
 
 다시 `s` 와 `e` 이동을 반복한다. 아래처럼 부분합이 30 이 되는 케이스를 더 찾을 수 있다.
 
-![그림00](/img/algorithm/algorithm-1020-01-01-05.svg)
-![그림00](/img/algorithm/algorithm-1020-01-01-06.svg)
+![그림00](/img/algorithm/algorithm-0007.svg)
+![그림00](/img/algorithm/algorithm-0008.svg)
 
 마지막에는 아래처럼 된다.
 
-![그림00](/img/algorithm/algorithm-1020-01-01-07.svg)
+![그림00](/img/algorithm/algorithm-0009.svg)
 
 부분합이 30 이 되는 케이스는 모두 4 개가 된다.
 

@@ -22,7 +22,7 @@ VLOOKUP 함수의 일반적인 사용법은 아래와 같다.
 
 ## 속도개선 VLOOKUP 함수식
 
-![그림00](/img/msoffice/msoffice-2210-01-01-00.png)
+![그림00](/img/msoffice/msoffice-0002.png)
 
 ```excel
 = IF( 검색값=VLOOKUP( 검색값, 검색범위, 1, TRUE ), VLOOKUP( 검색값, 검색범위, 열번호, TRUE ), NA())

@@ -20,7 +20,7 @@ VLOOKUP 함수의 일반적인 사용법은 아래와 같다.
 
 ## CHOOSE 함수로 가상범위 생성
 
-![그림01](/img/msoffice/msoffice-2220-01-01-01.png)
+![그림01](/img/msoffice/msoffice-0003.png)
 
 ```excel
 = VLOOKUP( 검색값, CHOOSE( {1, 2}, 검색기준열, 검색대상열 ), 2, FALSE )
@@ -31,7 +31,7 @@ CHOOSE 는 본래 첫번째 인수에 번호 n 을 지정하면, 뒤 이어진 �
 
 ## INDEX, MATCH 함수조합 사용
 
-![그림00](/img/msoffice/msoffice-2220-01-01-00.png)
+![그림00](/img/msoffice/msoffice-0004.png)
 
 ```excel
 = INDEX( 검색대상열, MATCH( 검색값, 검색기준열, 0 ))

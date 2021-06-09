@@ -9,7 +9,7 @@ tags: [algorithm,graph]
 
 [나무위키](https://namu.wiki/w/%ED%9E%99%20%ED%8A%B8%EB%A6%AC)에 소개한 것처럼 여러 개의 값 중에서 가장 크거나 작은 값을 빠르게 찾기 위해 고안된 자료구조다. 힙 정렬, 우선순위 큐 등 구현에 주로 사용되며, 아래와 같은 이진 트리 형태를 띄고 있다. 
 
-![그림00](/img/algorithm/algorithm-3002-01-01-00.svg)
+![그림00](/img/algorithm/algorithm-0019.svg)
 {:.center}
 
 부모 노드 아래에 최대 두개의 자식 노드가 달려있다. 위쪽에 위치한 노드일수록 더 작은 값이 위치한다면 "최소 힙(Min Heap)", 더 큰 값이 위치한다면 "최대 힙(Max Heap)이라 한다. 가장 위에 위치한 Root 노드는, 최소 힙이라면 트리에서 가장 작은 값을, 최대 힙이라면 가장 큰 값을 가지게 된다.
@@ -20,7 +20,7 @@ tags: [algorithm,graph]
 
 힙의 각 노드를 아래 그림처럼 순서대로 인덱스화 했을 때...
 
-![그림01](/img/algorithm/algorithm-3002-01-01-01.svg)
+![그림01](/img/algorithm/algorithm-0020.svg)
 
 어떤 노드 n 의 부모, 자식 노드 관계는 아래와 같다.
 
@@ -46,7 +46,7 @@ n 노드의 오른쪽 자식 노드는 n*2+2
 
 그림으로 표현하면 아래와 같다.
 
-![그림02](/img/algorithm/algorithm-3002-01-01-02.svg)
+![그림02](/img/algorithm/algorithm-0021.svg)
 
 이번에는 "최소 힙" 자료구조에서 데이터를 추출 해보자. Root 노드의 값을 가져오므로 당연히 가장 작은 값이 추출된다. 아래처럼 작동한다.
 
@@ -59,7 +59,7 @@ n 노드의 오른쪽 자식 노드는 n*2+2
 
 그림으로 표현하면 아래와 같다.
 
-![그림03](/img/algorithm/algorithm-3002-01-01-03.svg)
+![그림03](/img/algorithm/algorithm-0022.svg)
 
 ## Python 코드로 최소 힙 자료구조 구현
 

@@ -9,7 +9,7 @@ tags: [msoffice,excel]
 
 데이터집합에서 특정 값을 검색할 때 자주 사용되는 VLOOKUP 함수는 영문 대소문자를 구별하지 않는다.
 
-![그림00](/img/msoffice/msoffice-0910-01-01-00.png)
+![그림00](/img/msoffice/msoffice-0000.png)
 
 위 그림을 보면 찾고자 하는 `검색값`은 `ABxyYZ` 이기에 결과는 60 이어야하지만, 10 을 결과로 보이고 있다. `검색범위`의 제일 위쪽 값이 대소문자만 다를뿐 같은 문자이기 때문에, 대소문자를 구별하지 않는 VLOOKUP 함수는 이를 검색결과로 보이고 있는 것이다.
 
@@ -17,7 +17,7 @@ tags: [msoffice,excel]
 
 때에 따라서는 대소문자를 구별하여 검색이 필요할 때가 있다. 아래는 그 예시이다.
 
-![그림01](/img/msoffice/msoffice-0910-01-01-01.png)
+![그림01](/img/msoffice/msoffice-0001.png)
 
 ```excel
 {= INDEX( 검색대상열, MATCH( TRUE, EXACT( 검색값, 검색기준열 ), 0 ))}

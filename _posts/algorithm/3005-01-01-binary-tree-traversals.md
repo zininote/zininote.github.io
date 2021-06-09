@@ -11,7 +11,7 @@ tags: [algorithm,graph]
 
 트리 구조가 아래와 같다면, 각 방식 순회의 결과는 그림 아래와 같다.
 
-![그림00](/img/algorithm/algorithm-3005-01-01-00.svg)
+![그림00](/img/algorithm/algorithm-0024.svg)
 
 ```txt
 Preorder: Root -> Left -> Right (0, 1, 3, 4, 6, 7, 2, 5, 8)

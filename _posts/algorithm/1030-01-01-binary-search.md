@@ -34,31 +34,31 @@ lo < hi 이라면 반복
 
 `seq` 라는 리스트가 아래와 같이 있다고 보자. (아래 리스트 또한 오름차순으로 정렬되어있다.) 이제 `seq` 에서 숫자 41 이 어느 위치(인덱스)에 있는지 찾고자 한다.
 
-![그림00](/img/algorithm/algorithm-1030-01-01-00.svg)
+![그림00](/img/algorithm/algorithm-0010.svg)
 
 제일 먼저 `seq` 의 하한과 상한 인덱스에 각각 lo, hi 표시를 한다. 그리고 중간값이 있는 인덱스를 mid 표시한다.
 
-![그림01](/img/algorithm/algorithm-1030-01-01-01.svg)
+![그림01](/img/algorithm/algorithm-0011.svg)
 
 mid 가 가리키는 31 은 찾고자 하는 41 보다 작다. 그러므로 31 을 포함하여 왼쪽에 있는 요소들은 버리고, 31 의 다음 인덱스에 lo 표시를 한다.
 
-![그림02](/img/algorithm/algorithm-1030-01-01-02.svg)
+![그림02](/img/algorithm/algorithm-0012.svg)
 
 다시 중간값에 해당하는 요소에 mid 표시를 한다.
 
-![그림03](/img/algorithm/algorithm-1030-01-01-03.svg)
+![그림03](/img/algorithm/algorithm-0013.svg)
 
 mid 가 가리키는 53 은 찾고자 하는 41 보다 크다. 그러므로 53 을 포함하여 오른쪽에 있는 요소들은 버리고, 53 이 있던 인덱스에 hi 표시를 한다.
 
-![그림04](/img/algorithm/algorithm-1030-01-01-04.svg)
+![그림04](/img/algorithm/algorithm-0014.svg)
 
 계속해서 아래와 같이 진행을 한다.
 
-![그림05](/img/algorithm/algorithm-1030-01-01-05.svg)
+![그림05](/img/algorithm/algorithm-0015.svg)
 
-![그림06](/img/algorithm/algorithm-1030-01-01-06.svg)
+![그림06](/img/algorithm/algorithm-0016.svg)
 
-![그림07](/img/algorithm/algorithm-1030-01-01-07.svg)
+![그림07](/img/algorithm/algorithm-0017.svg)
 
 드디어 mid 가 가리키는 값이 41 이므로, 41 값이 위치한 인덱스인 12 를 리턴하면 된다.
 
